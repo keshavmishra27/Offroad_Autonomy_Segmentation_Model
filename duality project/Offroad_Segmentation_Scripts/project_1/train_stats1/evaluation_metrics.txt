@@ -1,0 +1,24 @@
+================================================================================
+  SEGMENTATION TRAINING RESULTS
+================================================================================
+
+Final Metrics:
+  Final Train Loss:     0.4436
+  Final Val Loss:       0.4797
+  Final Train IoU:      0.4795
+  Final Val IoU:        0.4527
+  Final Train Dice:     0.6528
+  Final Val Dice:       0.6612
+  Final Train Accuracy: 0.7795
+  Final Val Accuracy:   0.7798
+================================================================================
+
+Best Results:
+  Best Val IoU:      0.4537 (Epoch 19)
+  Best Val Dice:     0.6620 (Epoch 19)
+  Best Val Accuracy: 0.7818 (Epoch 15)
+  Lowest Val Loss:   0.4792 (Epoch 18)
+================================================================================
+
+Per-Class IoU (Best Model):
+----------------------------------------

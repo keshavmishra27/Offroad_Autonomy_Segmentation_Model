@@ -1,5 +1,11 @@
-# Ignore the duality project
-duality\ project/
+# Ignore large datasets and archives in duality project
+duality\ project/Offroad_Segmentation_Training_Dataset/
+duality\ project/Offroad_Segmentation_testImages/
+duality\ project/*.zip
+
+# Ignore other projects and large output folders
+duality\ project/Offroad_Segmentation_Scripts/project[2-9]*/
+duality\ project/Offroad_Segmentation_Scripts/*/predictions/
 
 # Python
 __pycache__/
