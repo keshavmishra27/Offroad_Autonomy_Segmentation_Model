@@ -96,13 +96,17 @@ This project was built through the collaboration of several specialized "virtual
    
 
 ##  Product Roadmap
-  [ ] **Phase 1**: Integration of Attention Gates to U Net skip connections for targeted spatial focus.
-  [ ] **Phase 2**: Quantization (INT8/FP16) for deployment on mobile NPUs.
-  [ ] **Phase 3**: Multi modal sensor fusion integrating LiDAR point clouds with semantic masks.
-  [ ] **Phase 4**: Temporal consistency checks in video stream inference.
+  **Phase 1**: Integration of Attention Gates to U Net skip connections for targeted spatial focus.
+  <br>
+  **Phase 2**: Quantization (INT8/FP16) for deployment on mobile NPUs.
+  <br>
+  **Phase 3**: Multi modal sensor fusion integrating LiDAR point clouds with semantic masks.
+  <br>
+  **Phase 4**: Temporal consistency checks in video stream inference.
 
    
 **Organization**:AARVAK
+<br>
 **Hackathon**: Hacker's Unity AI Hackathon
 
 
