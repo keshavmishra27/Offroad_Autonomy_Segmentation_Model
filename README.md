@@ -64,10 +64,9 @@ Each model folder is self-contained. To evaluate any model:
 
 ---
 
-## 📄 Documentation
+##  Documentation
 
 For a deep dive into the methodology, training strategy, and failure analysis, please refer to:
-- [Hacker's Unity AI Hackathon - Segmentation Documentation.pdf](./duality%20project/Hacker's%20Unity%20AI%20Hackathon%20-%20Segmentation%20Documentation.pdf)
 - Individual `README.md` files within each project directory.
 
 ---
@@ -77,6 +76,3 @@ For a deep dive into the methodology, training strategy, and failure analysis, p
 - **Efficiency Focus**: Several models (MobileDeepLab, ENet) are optimized for edge deployment.
 - **Robust Evaluation**: Comprehensive metrics including per-class IoU, Dice coefficients, and confusion matrices.
 - **Ready for Deployment**: Saved `.pth` checkpoints and standardized inference scripts.
-
----
-*Developed for the Hacker's Unity AI Hackathon - Offroad Autonomy Challenge.*
