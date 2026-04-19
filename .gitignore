@@ -3,6 +3,7 @@
 
 # Allow essential repository files
 !.gitignore
+!README.md
 
 # Allow the path to the Duality Submission Package
 !duality project/
