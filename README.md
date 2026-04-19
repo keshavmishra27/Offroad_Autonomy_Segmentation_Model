@@ -26,7 +26,7 @@ The OPE pipeline follows a modular "Unified Perception Lifecycle" designed for r
 
 ##  The Model Zoo (Perception Research Team)
 
-Our research team evaluated 10 distinct architectural paradigms to establish a baseline for off road autonomy.
+Our team evaluated 10 distinct architectural paradigms to establish a baseline for off road autonomy.
 
 | Architecture | Backbone | Best IoU | Design Intent |
 | :    | :    | :    | :    |
