@@ -83,28 +83,6 @@ cd "duality project/Offroad_Segmentation_Scripts/Duality_Submission/Duality_Subm
 python test_segmentation.py
 ```
 
-   
-
-##  Professional Team Structure (The Ikigai Unified Force)
-
-This project was built through the collaboration of several specialized "virtual" teams:
-*   **Perception Team**: Focused on SOTA model architectures and IoU optimization.
-*   **Infrastructure Team**: Managed dataset pipelines, label remapping, and normalization.
-*   **Report & BI Team**: Developed the automated `ReportGenerator` for comprehensive stakeholder documentation.
-*   **Optimization Team**: Tuned hyperparameters and class weights for terrestrial performance.
-
-   
-
-##  Product Roadmap
-  **Phase 1**: Integration of Attention Gates to U Net skip connections for targeted spatial focus.
-  <br>
-  **Phase 2**: Quantization (INT8/FP16) for deployment on mobile NPUs.
-  <br>
-  **Phase 3**: Multi modal sensor fusion integrating LiDAR point clouds with semantic masks.
-  <br>
-  **Phase 4**: Temporal consistency checks in video stream inference.
-
-   
 **Organization**:AARVAK
 <br>
 **Hackathon**: Hacker's Unity AI Hackathon
