@@ -10,7 +10,7 @@ This repository contains a comprehensive suite of **10 semantic segmentation pro
 
 ---
 
-## 🏆 Model Leaderboard
+##  Model Leaderboard
 
 We implemented and evaluated 10 different architectures to find the optimal balance between accuracy (IoU) and real-time performance.
 
@@ -29,7 +29,7 @@ We implemented and evaluated 10 different architectures to find the optimal bala
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 The submission is organized into independent projects, each containing its own training, testing, and visualization pipeline.
 
@@ -49,7 +49,7 @@ Duality_Submission_Package/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.10+
@@ -72,7 +72,7 @@ For a deep dive into the methodology, training strategy, and failure analysis, p
 
 ---
 
-## 🛠️ Key Features
+##  Key Features
 - **Diverse Architectures**: From standard CNNs to cutting-edge Vision Transformers (ViT).
 - **Efficiency Focus**: Several models (MobileDeepLab, ENet) are optimized for edge deployment.
 - **Robust Evaluation**: Comprehensive metrics including per-class IoU, Dice coefficients, and confusion matrices.
