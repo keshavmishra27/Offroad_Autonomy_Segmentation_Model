@@ -56,6 +56,8 @@ All data was generated from Duality AI's **FalconEditor** using geospatial-based
 ---
 
 ## 📂 Repository Structure
+
+<pre><code>
 Duality_Submission_Package/
 │
 ├── MobileDeepLab/                  # 🥇 Team Apex — SOTA Performance
@@ -116,7 +118,7 @@ Duality_Submission_Package/
 └── ENet/                           # Team EdgeCore — Real-time Optimized
 └── ...
 ---
-
+</code></pre>
 ## 🚀 Getting Started
 
 ### Prerequisites
