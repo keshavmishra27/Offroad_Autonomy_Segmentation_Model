@@ -5,14 +5,15 @@
 !.gitignore
 !README.md
 
-# Allow the path to the Duality Submission Package
+# Allow the directory structure
 !duality project/
-duality project/*
+!duality project/projects_report/
 !duality project/Offroad_Segmentation_Scripts/
-duality project/Offroad_Segmentation_Scripts/*
 !duality project/Offroad_Segmentation_Scripts/Duality_Submission/
-duality project/Offroad_Segmentation_Scripts/Duality_Submission/*
 !duality project/Offroad_Segmentation_Scripts/Duality_Submission/Duality_Submission_Package/
+
+# Allow all contents within the specified folders
+!duality project/projects_report/**
 !duality project/Offroad_Segmentation_Scripts/Duality_Submission/Duality_Submission_Package/**
 
 # Ignore heavy model weights (>100MB) to prevent GitHub push rejection
