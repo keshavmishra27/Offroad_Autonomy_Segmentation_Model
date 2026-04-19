@@ -1,42 +1,18 @@
-# Ignore large datasets and archives in duality project
-duality\ project/Offroad_Segmentation_Training_Dataset/
-duality\ project/Offroad_Segmentation_testImages/
-duality\ project/*.zip
+# Ignore everything by default
+*
 
-# Ignore specific large output folders across all projects
-duality\ project/Offroad_Segmentation_Scripts/*/predictions/
+# Allow essential repository files
+!.gitignore
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+# Allow the path to the Duality Submission Package
+!duality project/
+duality project/*
+!duality project/Offroad_Segmentation_Scripts/
+duality project/Offroad_Segmentation_Scripts/*
+!duality project/Offroad_Segmentation_Scripts/Duality_Submission/
+duality project/Offroad_Segmentation_Scripts/Duality_Submission/*
+!duality project/Offroad_Segmentation_Scripts/Duality_Submission/Duality_Submission_Package/
+!duality project/Offroad_Segmentation_Scripts/Duality_Submission/Duality_Submission_Package/**
 
-# Virtual Environment
-venv/
-.venv/
-ENV/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# OS
-.DS_Store
-Thumbs.db
+# Ignore heavy model weights (>100MB) to prevent GitHub push rejection
+*.pth

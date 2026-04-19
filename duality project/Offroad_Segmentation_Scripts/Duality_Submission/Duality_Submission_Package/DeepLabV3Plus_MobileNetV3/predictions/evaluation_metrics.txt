@@ -1,0 +1,17 @@
+EVALUATION RESULTS (DeepLabV3+)
+==================================================
+Mean IoU:          0.2391
+==================================================
+
+Per-Class IoU:
+----------------------------------------
+  Background          : 0.0000
+  Trees               : 0.1645
+  Lush Bushes         : 0.0001
+  Dry Grass           : 0.3243
+  Dry Bushes          : 0.0884
+  Ground Clutter      : 0.0000
+  Logs                : 0.0000
+  Rocks               : 0.0826
+  Landscape           : 0.4301
+  Sky                 : 0.9526

@@ -1,0 +1,9 @@
+torch
+torchvision
+numpy
+pillow
+matplotlib
+tqdm
+opencv-python
+transformers
+huggingface-hub
